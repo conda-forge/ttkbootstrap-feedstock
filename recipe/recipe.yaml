@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.2.4"
+  version: "2.2.5"
 
 package:
   name: ttkbootstrap
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/ttkbootstrap/ttkbootstrap-${{ version }}.tar.gz
-  sha256: 3b45b6599a232e9392f56b25ea5304a4fc41ffcd3516d63cbcdd94601e87aa92
+  sha256: ab4cca797701b7d96e5dde4a8b67ebbc40b43eab7ed8a5f42ad6e392f0df5400
 
 build:
   number: 0
