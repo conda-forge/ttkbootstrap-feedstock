@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.2.3"
+  version: "2.2.4"
 
 package:
   name: ttkbootstrap
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/ttkbootstrap/ttkbootstrap-${{ version }}.tar.gz
-  sha256: 31b71ca273e2cd2fc354f9f736498bb334209703aea22a0abc076b6231dcfc0f
+  sha256: 3b45b6599a232e9392f56b25ea5304a4fc41ffcd3516d63cbcdd94601e87aa92
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pillow >=10,<13
+    - pillow >=10,<14
 
 tests:
   # conda-forge's tk links libX11 without depending on xorg-libx11, so it
