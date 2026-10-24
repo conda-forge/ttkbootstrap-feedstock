@@ -27,7 +27,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - pillow >=10,<13
+    - pillow >=10,<14
 
 tests:
   # conda-forge's tk links libX11 without depending on xorg-libx11, so it
