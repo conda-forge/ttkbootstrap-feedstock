@@ -8,7 +8,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/t/ttkbootstrap/ttkbootstrap-${{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/t/ttkbootstrap/ttkbootstrap-${{ version }}.tar.gz
   sha256: 902f2212d8f51460beb0cabbe952ab68d87c7035d8d462411a32220a05c9cf8c
 
 build:
